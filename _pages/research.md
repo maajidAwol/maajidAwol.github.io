@@ -7,56 +7,55 @@ nav: true
 nav_order: 1
 ---
 
-My research focuses on the reliability of AI agents and the software systems around them. I am particularly interested in how concepts from software engineering and programming languages can help us reason about, evaluate, and improve agent behavior. As agents increasingly act on tools, repositories, APIs, and databases, their reliability becomes a software engineering problem as much as a machine learning one. This is my current research direction as an early-stage PhD student in the [Laboratory for Software Design](https://lab-design.github.io/) at Tulane University, and it is still evolving.
+AI agents no longer just answer questions. They **act**: calling tools, editing code, querying databases, and changing the systems around them. Once an agent can act, a mistake is no longer just a wrong answer; it is a wrong action. I study how to make those actions reliable, using ideas that software engineering and programming languages have refined for decades.
 
----
+### What I work on
 
-### Research interests
+- **Reliable AI agents.** Why agents fail when they use tools, and how to make them predictable.
+- **Agent safety and security.** Catching unsafe tool use, untrusted inputs, and harmful side effects.
+- **Programming languages for agents.** Contracts, state, refinement, and provenance as ways to reason about agent behavior.
+- **AI + software engineering.** Agents as software that works on software.
 
-- **Reliable AI agents.** Understanding how agents fail when they interact with tools, APIs, software repositories, and databases, and developing methods that make their behavior more reliable and predictable.
-- **AI + software engineering.** Studying AI systems through a software engineering lens: how agents work with software artifacts, development tools, and complex software environments.
-- **Programming languages for AI agents.** Adapting ideas such as contracts, refinement, state, provenance, and formal specification to reason about agent behavior.
-- **Agent safety and security.** Detecting and mitigating incorrect or unsafe behavior caused by tool interactions, parameters, external state, and untrusted information.
+My current work, in the [Laboratory for Software Design](https://lab-design.github.io/), focuses on the reliability and security of tool-using agents: judging an agent by the actions it takes along the way, not only by its final answer.
 
----
+### Questions I'm exploring
 
-### Current research
+- Can we write contracts for agent–tool interactions, and check them as the agent runs?
+- How do we catch unsafe tool use before it causes harm?
+- Can provenance explain _why_ an agent took a particular action?
+- Which software engineering abstractions actually transfer to AI agents?
 
-My current work focuses on the **reliability and security of tool-using AI agents**. I am interested in moving beyond evaluating agents only by their final outputs, and instead reasoning about the intermediate interactions, state changes, tool calls, parameters, and provenance that lead to those outcomes. This direction draws on software engineering and programming-language ideas including contracts, state management, refinement, provenance analysis, and fault-based evaluation. The goal is to develop systematic ways to identify agent failures, characterize their causes, and evaluate techniques that improve reliability.
+_Open questions I am working on, not results I am claiming._
 
-**Questions I am exploring**
+### Before the PhD: predicting technical debt
 
-- How can agent–tool interactions be specified and checked?
-- How can we detect incorrect or unsafe tool use?
-- How should state be represented and managed across long-running agent interactions?
-- How can provenance help explain why an agent produced a particular action?
-- How can we systematically evaluate agent reliability under realistic failures?
-- Which software engineering abstractions transfer effectively to AI agents?
-
-These are open questions I am investigating, not results I am claiming.
-
----
-
-### Previous research: technical debt prediction
-
-For my MSc at Addis Ababa Science and Technology University, I studied how to **predict high-risk technical debt in open-source software projects using machine learning**, advised by Dr. Tesfaye Gidey. The thesis shifts the goal from _detecting_ debt, which static analysis tools already do at scale, to _prioritizing_ it: identifying which files are likely to become maintenance-intensive in the near future. Across 22 Apache Java projects, on projects the model had never seen, inspecting only the top 20% of files it ranked recovered about 82% of the files that became maintenance-intensive over the next six months, roughly 4.1× random inspection. The full pipeline is available as a [replication package](https://github.com/maajidAwol/technical-debt).
-
-This work shaped my current direction: it taught me to treat software systems as objects of empirical study, and to care about the gap between what tools report and what actually matters to maintainers.
-
----
+Static analysis tools flag thousands of problems in a mature codebase, but maintainers need to know which ones will actually hurt. My MSc thesis built a cross-project model that predicts which files will become maintenance hotspots. On projects it had never seen, the **top 20% of files it ranked contained about 82% of future hotspots, roughly 4.1× better than random**. ([replication package](https://github.com/maajidAwol/technical-debt))
 
 ### Path into research
 
-- **Software engineering.** Built web, mobile, and AI-enabled systems in industry and freelance roles, and trained in algorithms through the Africa to Silicon Valley (A2SV) program.
-- **Software engineering research.** Master's thesis on predicting high-risk technical debt in open-source projects using machine learning and historical maintenance data.
-- **AI + software engineering.** A growing interest in how AI systems interact with software artifacts, tools, and development workflows.
-- **Reliable AI agents.** PhD research on making tool-using AI agents more reliable and secure, using ideas from software engineering and programming languages.
+**Software engineer** → **Software engineering researcher** (technical debt) → **AI + software engineering** → **Reliable AI agents**
 
----
+Years of building web, mobile, and AI systems taught me where software breaks. My research asks how to keep AI agents from breaking in the same ways.
 
-### Technical background
+### Education
 
-- **Programming:** Python, Java, JavaScript/TypeScript, Dart
-- **AI / machine learning:** supervised learning (logistic regression, random forests, gradient boosting), model evaluation, large language model APIs, retrieval-augmented generation
-- **Software engineering:** software architecture, testing, distributed and asynchronous systems, CI/CD, Git, Docker
-- **Research methods:** empirical software engineering, machine learning for software engineering, cross-project validation, reproducible pipelines
+<table class="table table-sm table-borderless">
+  <tbody>
+    <tr>
+      <td style="width: 9rem;">2026 – present</td>
+      <td><b>PhD in Computer Science</b><br>Tulane University, New Orleans, USA<br>Advisor: Dr. Hridesh Rajan</td>
+    </tr>
+    <tr>
+      <td>2024 – 2026</td>
+      <td><b>MSc in Software Engineering</b> (Fast Track Program)<br>Addis Ababa Science and Technology University, Ethiopia<br><i>Thesis: Predicting High-Risk Technical Debt in Open-Source Software Projects Using Machine Learning</i></td>
+    </tr>
+    <tr>
+      <td>2021 – 2025</td>
+      <td><b>BSc in Software Engineering</b>, with Very Great Distinction (GPA 3.78/4.0)<br>Addis Ababa Science and Technology University, Ethiopia</td>
+    </tr>
+  </tbody>
+</table>
+
+### Toolkit
+
+Python · Java · TypeScript · machine learning (random forests, XGBoost, LightGBM, model evaluation) · LLM APIs · empirical software engineering · Git · Docker · CI/CD
