@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://maajidawol.github.io/abdulmajid-awol/sitemap.xml
