@@ -39,7 +39,7 @@ These are open questions I am investigating, not results I am claiming.
 
 ### Previous research: technical debt prediction
 
-For my MSc at Addis Ababa Science and Technology University, I studied how to **predict high-risk technical debt in open-source software projects using machine learning**, advised by Dr. Tesfaye Gidey. The thesis shifts the goal from _detecting_ debt, which static analysis tools already do at scale, to _prioritizing_ it: identifying which files are likely to become maintenance-intensive in the near future. See the [project page]({{ '/projects/technical-debt/' | relative_url }}) for details.
+For my MSc at Addis Ababa Science and Technology University, I studied how to **predict high-risk technical debt in open-source software projects using machine learning**, advised by Dr. Tesfaye Gidey. The thesis shifts the goal from _detecting_ debt, which static analysis tools already do at scale, to _prioritizing_ it: identifying which files are likely to become maintenance-intensive in the near future. Across 22 Apache Java projects, on projects the model had never seen, inspecting only the top 20% of files it ranked recovered about 82% of the files that became maintenance-intensive over the next six months, roughly 4.1× random inspection. The full pipeline is available as a [replication package](https://github.com/maajidAwol/technical-debt).
 
 This work shaped my current direction: it taught me to treat software systems as objects of empirical study, and to care about the gap between what tools report and what actually matters to maintainers.
 

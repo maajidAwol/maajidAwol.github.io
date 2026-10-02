@@ -3,6 +3,7 @@ layout: page
 title: Miiltoo Knowledge Companion
 description: "Engineering · 2023. Generative-AI chatbot and quiz bot for Ethiopian Grade 12 exam preparation. Top 9 of 3,700+ at the A2SV Generative AI for Africa Hackathon."
 importance: 1
+redirect: https://github.com/maajidAwol/Miiltoo_Knowledge_Companion
 category: engineering
 github: https://github.com/maajidAwol/Miiltoo_Knowledge_Companion
 ---

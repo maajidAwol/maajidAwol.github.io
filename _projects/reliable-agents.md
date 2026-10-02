@@ -3,6 +3,7 @@ layout: page
 title: Reliable and Secure AI Agents
 description: "Ongoing PhD research · 2026–present. Making tool-using AI agents more reliable and secure, using ideas from software engineering and programming languages."
 importance: 1
+redirect: /research/
 category: research
 ---
 

@@ -3,6 +3,7 @@ layout: page
 title: Predicting High-Risk Technical Debt
 description: "Completed MSc research · 2026. Predicting which files in open-source projects will become maintenance-intensive, using machine learning."
 importance: 3
+redirect: https://github.com/maajidAwol/technical-debt
 category: research
 github: https://github.com/maajidAwol/technical-debt
 ---

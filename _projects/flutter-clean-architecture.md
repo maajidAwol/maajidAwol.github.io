@@ -3,6 +3,7 @@ layout: page
 title: Flutter Clean Architecture VS Code Extension
 description: "Engineering · 2024–2025. Open-source VS Code extension (190+ installs) that scaffolds Clean Architecture features for Flutter apps."
 importance: 2
+redirect: https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template
 category: engineering
 github: https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template
 ---

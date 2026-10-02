@@ -3,6 +3,7 @@ layout: page
 title: Provenance for Agent–Tool Interactions
 description: "Exploratory research · 2026–present. Using provenance to understand and detect problematic interactions between agents and their tools."
 importance: 2
+redirect: /research/
 category: research
 ---
 
