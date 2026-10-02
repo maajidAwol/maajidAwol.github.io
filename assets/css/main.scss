@@ -110,7 +110,9 @@ html[data-theme="dark"] {
   }
 }
 
-/* The homepage "news" heading is lowercase in the gem's layout. */
-.post h2 > a[href$="/news/"] {
+/* The homepage "news" heading is lowercase in the gem's layout. (A plain
+   selector: the deploy's PurgeCSS step drops attribute selectors like
+   a[href$="/news/"].) */
+.post h2 > a {
   text-transform: capitalize;
 }
