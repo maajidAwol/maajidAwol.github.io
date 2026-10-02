@@ -1,0 +1,148 @@
+cv:
+  name: Abdulmajid Awol Seid
+  location: New Orleans, LA, USA
+  email: maajidawol@gmail.com
+  website: https://maajidawol.github.io/abdulmajid-awol/
+  social_networks:
+    - network: GitHub
+      username: maajidAwol
+    - network: LinkedIn
+      username: maajidawol
+  sections:
+    summary:
+      - "PhD student in Computer Science at Tulane University and graduate research assistant in the Laboratory for Software Design, advised by Dr. Hridesh Rajan. I research reliable and secure AI agents at the intersection of artificial intelligence, software engineering, and programming languages. My current work focuses on preventing compositional and decompositional attacks in AI agents."
+    research_interests:
+      - label: Reliable AI agents
+        details: Agentic systems, tool use, failure analysis, evaluation
+      - label: Agent safety and security
+        details: Compositional and decompositional attacks, tool misuse, provenance
+      - label: AI + software engineering
+        details: AI4SE, agentic software engineering, empirical software engineering
+      - label: PL for AI agents
+        details: Contracts, state, refinement, provenance, specification
+    education:
+      - institution: Tulane University
+        area: Computer Science
+        degree: PhD
+        location: New Orleans, LA, USA
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - "School of Science and Engineering. Advisor: Dr. Hridesh Rajan."
+          - "Research focus: AI/LLM reliability, AI agent safety, and software engineering."
+      - institution: Addis Ababa Science and Technology University
+        area: Software Engineering (Fast Track Program)
+        degree: MSc
+        location: Addis Ababa, Ethiopia
+        start_date: 2024-01
+        end_date: 2026-07
+        highlights:
+          - "Thesis: *Predicting High-Risk Technical Debt in Open-Source Software Projects Using Machine Learning*. Advisor: Dr. Tesfaye Gidey."
+          - "Scholarship for academic excellence to begin the master's before completing the bachelor's degree."
+      - institution: Addis Ababa Science and Technology University
+        area: Software Engineering
+        degree: BSc
+        location: Addis Ababa, Ethiopia
+        start_date: 2021-05
+        end_date: 2025-06
+        highlights:
+          - "Graduated with Honors (Very Great Distinction), GPA 3.78/4.0."
+      - institution: Africa to Silicon Valley (A2SV)
+        area: Software Engineering and Algorithms Training
+        location: Addis Ababa, Ethiopia
+        start_date: 2023-11
+        end_date: 2024-11
+        highlights:
+          - 1,000+ hours of data structures and algorithms training; 600+ problems solved on LeetCode and Codeforces.
+    thesis:
+      - title: Predicting High-Risk Technical Debt in Open-Source Software Projects Using Machine Learning
+        authors:
+          - "*Abdulmajid Awol Seid*"
+        journal: Master's thesis, Addis Ababa Science and Technology University
+        date: 2026-07
+        url: https://github.com/maajidAwol/technical-debt
+    research_experience:
+      - company: Tulane University, Laboratory for Software Design
+        position: Graduate Research Assistant
+        location: New Orleans, LA, USA
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - Investigating how to prevent compositional and decompositional attacks in tool-using AI agents.
+          - Exploring software engineering and programming-language techniques (contracts, state, provenance) for reasoning about agent behavior.
+      - company: Addis Ababa Science and Technology University
+        position: MSc Thesis Research
+        location: Addis Ababa, Ethiopia
+        date: Completed July 2026
+        highlights:
+          - "Built a reproducible cross-project framework that predicts which files become maintenance-intensive (27 features, 22 Apache Java projects). On unseen projects, the top 20% of files ranked by the best model recover about 82% of future maintenance-intensive files, about 4.1x random inspection."
+    engineering_experience:
+      - company: Ethiopian Artificial Intelligence Institute
+        position: Software Engineer
+        location: Addis Ababa, Ethiopia
+        start_date: 2025-08
+        end_date: 2026-06
+      - company: Upwork (Freelance), including Omnicasa, Brussels
+        position: Full Stack Developer
+        location: Remote
+        start_date: 2024-07
+        end_date: 2026-03
+        highlights:
+          - Built a distributed video processing pipeline with Redis-backed job queues and asynchronous workflows, cutting turnaround from 2 hours to 15 minutes per recording.
+          - Automated transcription and post-meeting analytics, reducing review time by 30%. Top Rated freelancer.
+      - company: iCog Labs
+        position: AI/ML Intern
+        location: Addis Ababa, Ethiopia
+        start_date: 2025-05
+        end_date: 2025-08
+      - company: AASTU Software Engineers Association
+        position: Software Engineer Associate
+        location: Addis Ababa, Ethiopia
+        start_date: 2024-09
+        end_date: 2025-06
+      - company: Eskalate LLC
+        position: Mobile Application Developer
+        location: Addis Ababa, Ethiopia
+        start_date: 2024-06
+        end_date: 2024-11
+        highlights:
+          - Built Flutter mobile applications in a team following test-driven development.
+      - company: Camara Education Ethiopia
+        position: Full Stack Developer Intern
+        location: Addis Ababa, Ethiopia
+        start_date: 2023-07
+        end_date: 2023-11
+        highlights:
+          - Contributed to an educational platform used by 200+ Ethiopian schools and 300,000+ students.
+    selected_projects:
+      - name: Miiltoo Knowledge Companion
+        start_date: 2023-08
+        end_date: 2023-11
+        highlights:
+          - Led a team of five building a generative-AI chatbot and quiz bot for Ethiopian Grade 12 exam preparation (Flask, MySQL, OpenAI API).
+          - Top 9 of 3,700+ participants from 47 countries, A2SV Generative AI for Africa Hackathon.
+      - name: Flutter Clean Architecture VS Code Extension
+        start_date: 2024-12
+        end_date: 2025-03
+        highlights:
+          - Open-source extension (190+ installs) that scaffolds and auto-repairs Clean Architecture structure in Flutter apps.
+    honors_and_awards:
+      - label: "2025"
+        details: Academic Excellence Award, Graduated with Honors (Very Great Distinction), AASTU
+      - label: "2024"
+        details: MSc Fast Track Scholarship for Academic Excellence, AASTU
+      - label: "2023"
+        details: Finalist (Top 9 of 3,700+), A2SV Generative AI Hackathon for Africa
+      - label: "2021"
+        details: University Presidential Award, AASTU
+    skills:
+      - label: Programming
+        details: Python, Java, C++, JavaScript, TypeScript, Dart, PHP, SQL
+      - label: AI / ML
+        details: Supervised learning (logistic regression, random forests, XGBoost, LightGBM), model evaluation, LLM APIs, RAG
+      - label: Software engineering
+        details: Software architecture, testing, distributed and asynchronous systems, CI/CD, Git, Docker
+      - label: Research methods
+        details: Empirical software engineering, ML for software engineering, cross-project validation, reproducible pipelines
+design:
+  theme: classic

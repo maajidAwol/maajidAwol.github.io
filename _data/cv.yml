@@ -1,189 +1,193 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Abdulmajid Awol Seid
+  label: PhD Student in Computer Science, Tulane University
+  email: maajidawol@gmail.com
+  location: New Orleans, LA, USA
+  website: https://maajidawol.github.io/abdulmajid-awol/
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    PhD student in Computer Science at Tulane University and graduate research assistant in the Laboratory for Software Design, advised by
+    Dr. Hridesh Rajan. I research reliable and secure AI agents at the intersection of artificial intelligence, software engineering, and
+    programming languages. My current work focuses on preventing compositional and decompositional attacks in AI agents. Before my PhD, I
+    completed a BSc and MSc in Software Engineering and worked as a software engineer on web, mobile, and AI-enabled systems.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: maajidAwol
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: maajidawol
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+    Academic Interests:
+      - name: Reliable AI agents
+        icon: fa-solid fa-robot
+        keywords: "Agentic systems, tool use, failure analysis, evaluation"
+      - name: Agent safety and security
+        icon: fa-solid fa-shield-halved
+        keywords: "Compositional and decompositional attacks, tool misuse, provenance"
+      - name: AI + software engineering
+        icon: fa-solid fa-code
+        keywords: "AI4SE, agentic software engineering, empirical software engineering"
+      - name: Programming languages for AI agents
+        icon: fa-solid fa-diagram-project
+        keywords: "Contracts, state, refinement, provenance, specification"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Education:
+      - institution: Tulane University
+        location: New Orleans, LA, USA
+        url: https://sse.tulane.edu/cs
+        area: Computer Science
+        studyType: PhD
+        start_date: 2026-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - "School of Science and Engineering. Advisor: Dr. Hridesh Rajan."
+          - "Research focus: AI/LLM reliability, AI agent safety, and software engineering."
+
+      - institution: Addis Ababa Science and Technology University
+        location: Addis Ababa, Ethiopia
+        url: https://www.aastu.edu.et/
+        area: Software Engineering (Fast Track Program)
+        studyType: MSc
+        start_date: 2024-01
+        end_date: 2026-07
+        highlights:
+          - "Thesis: Predicting High-Risk Technical Debt in Open-Source Software Projects Using Machine Learning. Advisor: Dr. Tesfaye Gidey."
+          - "Awarded a scholarship for academic excellence to join the Fast Track program, which lets students begin the master's before completing the bachelor's degree."
+          - "Relevant coursework: System Architecture and Design, Software Testing, Project Management, Computer Security."
+
+      - institution: Addis Ababa Science and Technology University
+        location: Addis Ababa, Ethiopia
+        url: https://www.aastu.edu.et/
+        area: Software Engineering
+        studyType: BSc
+        start_date: 2021-05
+        end_date: 2025-06
+        highlights:
+          - "Graduated with Honors (Very Great Distinction), GPA 3.78/4.0."
+          - "Relevant coursework: Machine Learning, Artificial Intelligence, Distributed Systems, Database Systems, Data Structures and Algorithms, Object-Oriented Programming, Cloud Computing."
+
+      - institution: Africa to Silicon Valley (A2SV)
+        location: Addis Ababa, Ethiopia
+        url: https://a2sv.org/
+        area: Software Engineering and Algorithms Training
+        studyType: Program
+        start_date: 2023-11
+        end_date: 2024-11
+        highlights:
+          - "Intensive data structures and algorithms training (1,000+ hours; 600+ problems solved on LeetCode and Codeforces)."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Tulane University, Laboratory for Software Design
+        position: Graduate Research Assistant
+        location: New Orleans, LA, USA
+        url: https://lab-design.github.io/
+        start_date: 2026-08
+        summary: Research on reliable and secure AI agents, advised by Dr. Hridesh Rajan.
         highlights:
-          - Relativity
-          - Description 2.
+          - Investigating how to prevent compositional and decompositional attacks in tool-using AI agents.
+          - Exploring software engineering and programming-language techniques (contracts, state, provenance) for reasoning about agent behavior.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Ethiopian Artificial Intelligence Institute
+        position: Software Engineer
+        location: Addis Ababa, Ethiopia
+        start_date: 2025-08
+        end_date: 2026-06
+
+      - company: iCog Labs
+        position: AI/ML Intern
+        location: Addis Ababa, Ethiopia
+        start_date: 2025-05
+        end_date: 2025-08
+
+      - company: AASTU Software Engineers Association
+        position: Software Engineer Associate
+        location: Addis Ababa, Ethiopia
+        start_date: 2024-09
+        end_date: 2025-06
+
+      - company: Upwork (Freelance), including Omnicasa, Brussels
+        position: Full Stack Developer
+        location: Remote
+        start_date: 2024-07
+        end_date: 2026-03
+        summary: Top Rated freelancer working on full-stack development and process automation.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built a distributed video processing pipeline (Notion to Vimeo) with Redis-backed job queues and asynchronous workflows, cutting turnaround per meeting recording from 2 hours to 15 minutes.
+          - Standardized multi-format inputs (Zoom, Meet, audio-only; .mp4/.ts/.m4a) into consistent playable output.
+          - Automated transcription and post-meeting analytics, reducing review time by 30%.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Eskalate LLC
+        position: Mobile Application Developer
+        location: Addis Ababa, Ethiopia
+        start_date: 2024-06
+        end_date: 2024-11
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Built Flutter mobile applications as part of a team, following test-driven development practices.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Camara Education Ethiopia
+        position: Full Stack Developer Intern
+        location: Addis Ababa, Ethiopia
+        start_date: 2023-07
+        end_date: 2023-11
+        highlights:
+          - Contributed to an educational platform used by 200+ Ethiopian schools, providing digital books and past exams to over 300,000 students.
+          - Implemented front-end features that improved content access, increasing site engagement by 20%.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Predicting High-Risk Technical Debt in Open-Source Software Projects Using Machine Learning
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - Abdulmajid Awol Seid
+        publisher: Master's thesis, Addis Ababa Science and Technology University
+        releaseDate: 2026-07
+        url: https://github.com/maajidAwol/technical-debt
+        summary: Cross-project framework that predicts which files will become maintenance-intensive, evaluated on 22 Apache Java projects.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Compositional and Decompositional Attacks on AI Agents
+        start_date: 2026-08
+        summary: Ongoing PhD research on preventing attacks that hide harmful behavior across individually harmless-looking agent steps.
+
+      - name: Miiltoo Knowledge Companion
+        url: https://github.com/maajidAwol/Miiltoo_Knowledge_Companion
+        start_date: 2023-08
+        end_date: 2023-11
+        summary: Generative-AI chatbot and quiz bot for Ethiopian Grade 12 exam preparation (Flask, MySQL, OpenAI API).
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Led a team of five; top 9 of 3,700+ participants from 47 countries at the A2SV Generative AI for Africa Hackathon.
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Flutter Clean Architecture VS Code Extension
+        url: https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template
+        start_date: 2024-12
+        end_date: 2025-03
+        summary: Open-source extension (190+ installs) that scaffolds and auto-repairs Clean Architecture structure in Flutter apps.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Awards:
+      - title: Academic Excellence Award, Graduated with Honors (Very Great Distinction)
+        date: 2025-06
+        awarder: Addis Ababa Science and Technology University
+
+      - title: MSc Fast Track Scholarship for Academic Excellence
+        date: 2024-01
+        awarder: Addis Ababa Science and Technology University
+
+      - title: Finalist (Top 9 of 3,700+), Generative AI Hackathon for Africa
+        date: 2023-11
+        awarder: Africa to Silicon Valley (A2SV)
+
+      - title: University Presidential Award
+        date: 2021-03
+        awarder: Addis Ababa Science and Technology University
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-terminal
+        keywords: "Python, Java, C++, JavaScript, TypeScript, Dart, PHP, SQL"
+      - name: AI / Machine Learning
+        icon: fa-solid fa-brain
+        keywords: "Supervised learning (logistic regression, random forests, XGBoost, LightGBM), model evaluation, LLM APIs, retrieval-augmented generation"
+      - name: Software Engineering
+        icon: fa-solid fa-gears
+        keywords: "Software architecture, testing, distributed and asynchronous systems, CI/CD, Git, Docker"
+      - name: Research Methods
+        icon: fa-solid fa-flask
+        keywords: "Empirical software engineering, machine learning for software engineering, cross-project validation, reproducible pipelines"
