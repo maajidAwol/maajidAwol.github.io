@@ -2,7 +2,7 @@ cv:
   name: Abdulmajid Awol Seid
   location: New Orleans, LA, USA
   email: maajidawol@gmail.com
-  website: https://maajidawol.github.io/abdulmajid-awol/
+  website: https://maajidawol.github.io/
   social_networks:
     - network: GitHub
       username: maajidAwol
@@ -10,12 +10,12 @@ cv:
       username: maajidawol
   sections:
     summary:
-      - "PhD student in Computer Science at Tulane University and graduate research assistant in the Laboratory for Software Design, advised by Dr. Hridesh Rajan. I research reliable and secure AI agents at the intersection of artificial intelligence, software engineering, and programming languages. My current work focuses on preventing compositional and decompositional attacks in AI agents."
+      - "PhD student in Computer Science at Tulane University and graduate research assistant in the Laboratory for Software Design, advised by Dr. Hridesh Rajan. I research reliable and secure AI agents at the intersection of artificial intelligence, software engineering, and programming languages. My current work focuses on the reliability and security of tool-using AI agents."
     research_interests:
       - label: Reliable AI agents
         details: Agentic systems, tool use, failure analysis, evaluation
       - label: Agent safety and security
-        details: Compositional and decompositional attacks, tool misuse, provenance
+        details: Tool misuse, untrusted inputs, provenance
       - label: AI + software engineering
         details: AI4SE, agentic software engineering, empirical software engineering
       - label: PL for AI agents
@@ -68,7 +68,7 @@ cv:
         start_date: 2026-08
         end_date: present
         highlights:
-          - Investigating how to prevent compositional and decompositional attacks in tool-using AI agents.
+          - Researching the reliability and security of tool-using AI agents.
           - Exploring software engineering and programming-language techniques (contracts, state, provenance) for reasoning about agent behavior.
       - company: Addis Ababa Science and Technology University
         position: MSc Thesis Research
