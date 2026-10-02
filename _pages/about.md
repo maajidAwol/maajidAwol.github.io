@@ -10,11 +10,13 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p class="profile-role">PhD Student</p>
-    <p>Computer Science</p>
-    <p>Tulane University</p>
+    <p>Department of Computer Science</p>
+    <p>303 Stanley Thomas Hall</p>
+    <p>6823 St. Charles Ave.</p>
+    <p>New Orleans, LA 70118</p>
     <div class="profile-links">
+      <p><i class="fa-solid fa-envelope"></i> <a href="mailto:aseid@tulane.edu">aseid@tulane.edu</a></p>
       <p><a href="https://lab-design.github.io/">Laboratory for Software Design</a></p>
-      <p><a href="mailto:aseid@tulane.edu">aseid@tulane.edu</a></p>
     </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
