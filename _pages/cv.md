@@ -1,12 +1,8 @@
 ---
-layout: cv
-permalink: /cv/
+layout: none
 title: CV
+permalink: https://maajidawol.github.io/assets/pdf/Abdulmajid_Awol_Seid_CV.pdf
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/Abdulmajid_Awol_Seid_CV.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: Academic CV. Use the PDF icon on the right to download a copy.
-toc:
-  sidebar: left
+sitemap: false
 ---

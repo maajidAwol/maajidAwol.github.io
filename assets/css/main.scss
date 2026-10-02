@@ -40,8 +40,8 @@
 
 /* Site colors: Tulane green, matching the Laboratory for Software Design site
    (https://lab-design.github.io). Light mode uses Tulane green (#006747);
-   dark mode uses the lab's brighter green (#43b02a), which stays readable on
-   the dark background. */
+   dark mode uses the same Tulane green hue lifted to #3f9a76, so it stays
+   readable on the dark background without being loud. */
 :root {
   --global-theme-color: #006747;
   --global-hover-color: #006747;
@@ -49,6 +49,6 @@
 }
 
 html[data-theme="dark"] {
-  --global-theme-color: #43b02a;
-  --global-hover-color: #43b02a;
+  --global-theme-color: #3f9a76;
+  --global-hover-color: #3f9a76;
 }

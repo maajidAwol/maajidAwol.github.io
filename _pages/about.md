@@ -9,10 +9,10 @@ profile:
   image: profile/abdulmajid.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Graduate Research Assistant</p>
-    <p><a href="https://lab-design.github.io/">Laboratory for Software Design</a></p>
+    <p>PhD Student in Computer Science</p>
     <p>Tulane University</p>
-    <p>New Orleans, LA</p>
+    <p><a href="https://lab-design.github.io/">Laboratory for Software Design</a></p>
+    <p><a href="mailto:aseid@tulane.edu">aseid@tulane.edu</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,7 +30,7 @@ latest_posts:
 
 **I study reliable AI agents at the intersection of artificial intelligence, software engineering, and programming languages.**
 
-[Research]({{ '/research/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [GitHub](https://github.com/maajidAwol) · [Email](mailto:aseid@tulane.edu)
+[Research]({{ '/research/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/assets/pdf/Abdulmajid_Awol_Seid_CV.pdf' | relative_url }}) · [GitHub](https://github.com/maajidAwol) · [Email](mailto:aseid@tulane.edu)
 
 I am a PhD student in Computer Science at Tulane University, where I am a graduate research assistant in the [Laboratory for Software Design](https://lab-design.github.io/), advised by [Dr. Hridesh Rajan](https://sse.tulane.edu/cs/faculty/rajan). My interests lie at the intersection of artificial intelligence, software engineering, and programming languages, with an emphasis on making agentic systems more dependable when they interact with tools, software artifacts, and external environments.
 
@@ -48,9 +48,5 @@ Questions I am currently exploring:
 - Which software engineering abstractions transfer effectively to AI agents?
 
 These are open questions I am working on, not solved problems. More on the [research page]({{ '/research/' | relative_url }}).
-
-#### How I approach research
-
-I am drawn to questions that connect conceptual ideas with measurable software and system behavior. I value clear problem definitions, reproducible evaluation, meaningful baselines, and honest reporting of both positive and negative results. My engineering background shapes how I look at AI systems: through abstractions, interfaces, state, contracts, failure modes, and empirical evaluation.
 
 [More about me →]({{ '/about/' | relative_url }})
