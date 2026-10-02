@@ -35,4 +35,10 @@ I am a PhD student in Computer Science at Tulane University, where I am a gradua
 
 Before starting my PhD, I completed a BSc (with Very Great Distinction) and an MSc in Software Engineering at Addis Ababa Science and Technology University, and worked as a software engineer on web, mobile, and AI-enabled systems. My master's thesis studied how to predict high-risk technical debt in open-source software projects using machine learning. I see that engineering experience as complementary to research: it gives me practical insight into how complex systems are designed, tested, and maintained, and where they tend to break.
 
-My research interests, open questions, previous work, and education are on the [research page]({{ '/research/' | relative_url }}).
+**Education**
+
+- **PhD in Computer Science**, Tulane University, 2026–present
+- **MSc in Software Engineering** (Fast Track), Addis Ababa Science and Technology University, 2024–2026
+- **BSc in Software Engineering**, Addis Ababa Science and Technology University, 2021–2025, with Very Great Distinction
+
+My research interests, open questions, and previous work are on the [research page]({{ '/research/' | relative_url }}).
