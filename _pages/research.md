@@ -9,6 +9,8 @@ nav_order: 1
 
 AI agents no longer just answer questions. They **act**: calling tools, editing code, querying databases, and changing the systems around them. Once an agent can act, a mistake is no longer just a wrong answer; it is a wrong action. I study how to make those actions reliable, using ideas that software engineering and programming languages have refined for decades.
 
+I came to this from software engineering. Years of building web, mobile, and AI systems taught me where software breaks, and my MSc thesis studied that empirically. Static analysis tools flag thousands of problems in a mature codebase, but maintainers need to know which ones will actually hurt, so I built a cross-project model that predicts which files will become maintenance hotspots. On projects it had never seen, the **top 20% of files it ranked contained about 82% of future hotspots, roughly 4.1× better than random**. AI agents are the next step on that path: software that acts on software, and that breaks in new ways.
+
 ### What I work on
 
 - **Reliable AI agents.** Why agents fail when they use tools, and how to make them predictable.
@@ -27,15 +29,10 @@ My current work, in the [Laboratory for Software Design](https://lab-design.gith
 
 _Open questions I am working on, not results I am claiming._
 
-### Before the PhD: predicting technical debt
+### Open source
 
-Static analysis tools flag thousands of problems in a mature codebase, but maintainers need to know which ones will actually hurt. My MSc thesis built a cross-project model that predicts which files will become maintenance hotspots. On projects it had never seen, the **top 20% of files it ranked contained about 82% of future hotspots, roughly 4.1× better than random**. ([replication package](https://github.com/maajidAwol/technical-debt))
-
-### Path into research
-
-**Software engineer** → **Software engineering researcher** (technical debt) → **AI + software engineering** → **Reliable AI agents**
-
-Years of building web, mobile, and AI systems taught me where software breaks. My research asks how to keep AI agents from breaking in the same ways.
+- **[Flutter Clean Architecture VS Code extension](https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template)** (190+ installs). Scaffolds a full Clean Architecture feature for a Flutter app in one command, then detects and repairs structural drift. It is an early version of an idea I still care about: turning a project's implicit structural rules into something a tool can check.
+- **[Technical debt prediction pipeline](https://github.com/maajidAwol/technical-debt)**. The full replication package for my MSc thesis: data processing, labeling, features, models, and evaluation.
 
 ### Education
 

@@ -3,14 +3,13 @@
 
 @mastersthesis{seid2026technicaldebt,
   abbr        = {MSc Thesis},
-  bibtex_show = {true},
   title       = {Predicting High-Risk Technical Debt in Open-Source Software Projects Using Machine Learning},
-  author      = {Seid, Abdulmajid Awol},
+  author      = {Seid, Abdulmajid Awol and Gidey, Tesfaye},
   school      = {Addis Ababa Science and Technology University},
   address     = {Addis Ababa, Ethiopia},
   year        = {2026},
   month       = jul,
-  note        = {Master's thesis, Department of Software Engineering. Advisor: Tesfaye Gidey},
+  note        = {Master's thesis, Department of Software Engineering},
   code        = {https://github.com/maajidAwol/technical-debt},
   abstract    = {Technical debt accumulates in long-lived open-source software projects through expedient design decisions whose corrective effort grows over time. Maintainers operating under limited time and contributor capacity rarely have evidence-based guidance on which modules to address first. Static analysis tools can identify thousands of debt indicators in a mature codebase, but detection is not prioritization. This thesis develops a reproducible cross-project framework that shifts the prediction target from debt detection toward consequence-oriented prioritization. The framework rests on a combined labeling approach that integrates current static analysis evidence with historical maintenance signals to produce ground truth aligned with future maintenance burden rather than tool output. Twenty-seven features organized into five conceptual families (size and complexity, static debt indicators, historical change, co-change graph centrality, prior defect history) are computed strictly from information available at or before the snapshot date. Four supervised classifiers (logistic regression, random forest, XGBoost, LightGBM) are trained with class-balanced weighting and hyperparameter tuning, and evaluated under both within-project and leave-one-project-out cross-project validation. Across 22 Apache Java projects, on previously unseen projects, a maintainer inspecting only the top 20 percent of files ranked by the model recovers approximately 82 percent of files that will become maintenance-intensive in the next six months, approximately 4.1 times the recovery rate of random inspection at the same review budget.}
 }
