@@ -6,7 +6,7 @@ subtitle: PhD Student in Computer Science · <a href='https://sse.tulane.edu/cs'
 
 profile:
   align: right
-  # image: profile/abdulmajid.jpg # uncomment once assets/img/profile/abdulmajid.jpg exists (the build fails if the file is missing)
+  image: profile/abdulmajid.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Graduate Research Assistant</p>
