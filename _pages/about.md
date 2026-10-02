@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Home
+title: About
 permalink: /
 subtitle: PhD Student in Computer Science · <a href='https://sse.tulane.edu/cs'>Tulane University</a>
 
@@ -33,15 +33,12 @@ latest_posts:
 
 I am a PhD student in Computer Science at Tulane University, where I am a graduate research assistant in the [Laboratory for Software Design](https://lab-design.github.io/), advised by [Dr. Hridesh Rajan](https://sse.tulane.edu/cs/faculty/rajan). My interests lie at the intersection of artificial intelligence, software engineering, and programming languages, with an emphasis on making agentic systems more dependable when they interact with tools, software artifacts, and external environments. My current work focuses on the **reliability and security of tool-using AI agents**: rather than judging agents only by their final outputs, I am interested in reasoning about the intermediate tool calls, parameters, state changes, and provenance that lead to those outcomes, drawing on ideas from software engineering and programming languages such as contracts, refinement, and provenance analysis.
 
-Before starting my PhD, I completed a BSc (with Very Great Distinction) and an MSc in Software Engineering at Addis Ababa Science and Technology University, and worked as a software engineer on web, mobile, and AI-enabled systems. My master's thesis studied how to predict high-risk technical debt in open-source software projects using machine learning.
+Before starting my PhD, I completed a BSc (with Very Great Distinction) and an MSc in Software Engineering at Addis Ababa Science and Technology University, and worked as a software engineer on web, mobile, and AI-enabled systems. My master's thesis studied how to predict high-risk technical debt in open-source software projects using machine learning. I see that engineering experience as complementary to research: it gives me practical insight into how complex systems are designed, tested, and maintained, and where they tend to break.
 
-Questions I am currently exploring:
+**Education**
 
-- How can agent–tool interactions be specified and checked?
-- How can we detect incorrect or unsafe tool use?
-- How can provenance help explain why an agent took a particular action?
-- Which software engineering abstractions transfer effectively to AI agents?
+- **PhD in Computer Science**, Tulane University, 2026–present
+- **MSc in Software Engineering** (Fast Track), Addis Ababa Science and Technology University, 2024–2026
+- **BSc in Software Engineering**, Addis Ababa Science and Technology University, 2021–2025, with Very Great Distinction
 
-These are open questions I am working on, not solved problems. More on the [research page]({{ '/research/' | relative_url }}).
-
-[More about me →]({{ '/about/' | relative_url }})
+My research interests, open questions, and previous work are on the [research page]({{ '/research/' | relative_url }}).
