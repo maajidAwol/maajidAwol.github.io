@@ -181,7 +181,7 @@ cv:
     Skills:
       - name: Programming
         icon: fa-solid fa-terminal
-        keywords: "Python, Java, C++, JavaScript, TypeScript, Dart, PHP, SQL"
+        keywords: "Python, Java, JavaScript, TypeScript, Dart, SQL"
       - name: AI / Machine Learning
         icon: fa-solid fa-brain
         keywords: "Supervised learning (logistic regression, random forests, XGBoost, LightGBM), model evaluation, LLM APIs, retrieval-augmented generation"

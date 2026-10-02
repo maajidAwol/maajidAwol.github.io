@@ -14,21 +14,21 @@ The site is built with [Jekyll](https://jekyllrb.com/) using the [al-folio](http
 
 Where the content lives:
 
-| Content        | File(s)                                  |
-| -------------- | ---------------------------------------- |
-| Homepage       | `_pages/about.md`                        |
-| Research       | `_pages/research.md`                     |
-| About          | `_pages/about-me.md`                     |
-| Projects       | `_projects/`                             |
-| Publications   | `_bibliography/papers.bib`               |
-| CV page        | `_data/cv.yml`                           |
-| CV PDF         | `assets/pdf/Abdulmajid_Awol_Seid_CV.pdf` |
-| CV PDF source  | `assets/rendercv/academic_cv.yaml`       |
-| News           | `_news/`                                 |
-| Research notes | `_posts/`                                |
-| Site settings  | `_config.yml`, `_data/socials.yml`       |
+| Content                       | File(s)                                  |
+| ----------------------------- | ---------------------------------------- |
+| Homepage                      | `_pages/about.md`                        |
+| Research                      | `_pages/research.md`                     |
+| About                         | `_pages/about-me.md`                     |
+| Projects                      | `_projects/`                             |
+| Publications                  | `_bibliography/papers.bib`               |
+| CV page                       | `_data/cv.yml`                           |
+| CV PDF                        | `assets/pdf/Abdulmajid_Awol_Seid_CV.pdf` |
+| Academic CV source (optional) | `assets/rendercv/academic_cv.yaml`       |
+| News                          | `_news/`                                 |
+| Research notes                | `_posts/`                                |
+| Site settings                 | `_config.yml`, `_data/socials.yml`       |
 
-To regenerate the CV PDF after editing `assets/rendercv/academic_cv.yaml`:
+To render the optional academic CV from `assets/rendercv/academic_cv.yaml` (output goes to `rendercv_output/`; copy it to `assets/pdf/` to publish it):
 
 ```bash
 uv tool run --python 3.12 --from "rendercv[full]" rendercv render assets/rendercv/academic_cv.yaml

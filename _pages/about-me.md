@@ -59,7 +59,7 @@ Before my PhD, I spent several years building software: web, mobile, and AI-enab
 
 ### Selected technical background
 
-- **Programming:** Python, Java, C++, JavaScript/TypeScript, Dart, PHP
+- **Programming:** Python, Java, JavaScript/TypeScript, Dart
 - **AI / machine learning:** supervised learning (logistic regression, random forests, gradient boosting), model evaluation, large language model APIs, retrieval-augmented generation
 - **Software engineering:** software architecture, testing, distributed and asynchronous systems, CI/CD, Git, Docker
 - **Research methods:** empirical software engineering, machine learning for software engineering, cross-project validation, reproducible pipelines

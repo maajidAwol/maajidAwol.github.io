@@ -137,7 +137,7 @@ cv:
         details: University Presidential Award, AASTU
     skills:
       - label: Programming
-        details: Python, Java, C++, JavaScript, TypeScript, Dart, PHP, SQL
+        details: Python, Java, JavaScript, TypeScript, Dart, SQL
       - label: AI / ML
         details: Supervised learning (logistic regression, random forests, XGBoost, LightGBM), model evaluation, LLM APIs, RAG
       - label: Software engineering
