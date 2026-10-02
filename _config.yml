@@ -11,10 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Abdulmajid Awol Seid is a PhD student in Computer Science at Tulane University, researching reliable AI agents at the intersection of
   artificial intelligence, software engineering, and programming languages.
-footer_text: >
-  Abdulmajid Awol Seid · PhD Student in Computer Science · Tulane University.
-  Researching reliable AI agents at the intersection of AI, software engineering, and programming languages.
-  Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a>, hosted by <a href="https://pages.github.com/">GitHub Pages</a>.
+footer_text: ""
 keywords: Abdulmajid Awol Seid, AI agents, agent safety, reliable AI, software engineering, programming languages, Tulane University, PhD
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧭 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -22,7 +19,7 @@ apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL)
 
 url: https://maajidawol.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
