@@ -13,29 +13,10 @@ My research focuses on the reliability of AI agents and the software systems aro
 
 ### Research interests
 
-#### Reliable AI agents
-
-AI agents increasingly interact with tools, APIs, software repositories, databases, and other external systems. I am interested in understanding the failure modes that arise from these interactions and in developing methods that make agent behavior more reliable and predictable.
-
-<small>_AI agents · reliability · agentic systems · tool use_</small>
-
-#### AI + software engineering
-
-I study AI systems through a software engineering lens, including how agents interact with software artifacts, development tools, and complex software environments.
-
-<small>_AI4SE · software engineering · agentic software engineering_</small>
-
-#### Programming languages for AI agents
-
-Programming-language concepts such as contracts, refinement, provenance, state, and formal specification provide useful abstractions for reasoning about agent behavior. I am interested in adapting these ideas to agentic systems.
-
-<small>_programming languages · contracts · state · provenance · verification_</small>
-
-#### Agent safety and security
-
-I am interested in how tool interactions, parameters, external state, and untrusted information can cause agents to behave incorrectly or unsafely, and in techniques for detecting and mitigating these failures.
-
-<small>_agent safety · security · tool misuse · provenance_</small>
+- **Reliable AI agents.** Understanding how agents fail when they interact with tools, APIs, software repositories, and databases, and developing methods that make their behavior more reliable and predictable.
+- **AI + software engineering.** Studying AI systems through a software engineering lens: how agents work with software artifacts, development tools, and complex software environments.
+- **Programming languages for AI agents.** Adapting ideas such as contracts, refinement, state, provenance, and formal specification to reason about agent behavior.
+- **Agent safety and security.** Detecting and mitigating incorrect or unsafe behavior caused by tool interactions, parameters, external state, and untrusted information.
 
 ---
 
