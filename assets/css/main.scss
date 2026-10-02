@@ -1,0 +1,54 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+/* Local copy of al_folio_core's assets/css/main.scss (v1.0.15).
+   It is identical to the gem's file except for the color overrides at the
+   bottom. If al_folio_core changes its main.scss, re-copy it and keep the
+   override block. */
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}}
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* Site colors: Tulane green, matching the Laboratory for Software Design site
+   (https://lab-design.github.io). Light mode uses Tulane green (#006747);
+   dark mode uses the lab's brighter green (#43b02a), which stays readable on
+   the dark background. */
+:root {
+  --global-theme-color: #006747;
+  --global-hover-color: #006747;
+  --global-code-bg-color: rgba(0, 103, 71, 0.05);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #43b02a;
+  --global-hover-color: #43b02a;
+}
