@@ -66,4 +66,4 @@ Before my PhD, I spent several years building software: web, mobile, and AI-enab
 
 ### Contact
 
-The best way to reach me is by email at [maajidawol@gmail.com](mailto:maajidawol@gmail.com). You can also find me on [GitHub](https://github.com/maajidAwol) and [LinkedIn](https://www.linkedin.com/in/maajidawol/), or download my [CV]({{ '/assets/pdf/Abdulmajid_Awol_Seid_CV.pdf' | relative_url }}).
+The best way to reach me is by email at [aseid@tulane.edu](mailto:aseid@tulane.edu). You can also find me on [GitHub](https://github.com/maajidAwol) and [LinkedIn](https://www.linkedin.com/in/maajidawol/), or download my [CV]({{ '/assets/pdf/Abdulmajid_Awol_Seid_CV.pdf' | relative_url }}).

@@ -30,7 +30,7 @@ latest_posts:
 
 **I study reliable AI agents at the intersection of artificial intelligence, software engineering, and programming languages.**
 
-[Research]({{ '/research/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [GitHub](https://github.com/maajidAwol) · [Email](mailto:maajidawol@gmail.com)
+[Research]({{ '/research/' | relative_url }}) · [Publications]({{ '/publications/' | relative_url }}) · [CV]({{ '/cv/' | relative_url }}) · [GitHub](https://github.com/maajidAwol) · [Email](mailto:aseid@tulane.edu)
 
 I am a PhD student in Computer Science at Tulane University, where I am a graduate research assistant in the [Laboratory for Software Design](https://lab-design.github.io/), advised by [Dr. Hridesh Rajan](https://sse.tulane.edu/cs/faculty/rajan). My interests lie at the intersection of artificial intelligence, software engineering, and programming languages, with an emphasis on making agentic systems more dependable when they interact with tools, software artifacts, and external environments.
 
