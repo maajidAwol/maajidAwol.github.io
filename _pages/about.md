@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle: PhD Student in Computer Science · <a href='https://sse.tulane.edu/cs'>Tulane University</a> · School of Science and Engineering
 

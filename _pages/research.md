@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 description: Building reliable AI agents through software engineering and programming-language principles.
 nav: true

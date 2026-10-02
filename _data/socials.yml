@@ -2,7 +2,13 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 email: aseid@tulane.edu # your email address
-# scholar_userid: # TODO: paste your Google Scholar ID here (the value after "user=" in your profile URL), then uncomment
+# Placeholder: the Google Scholar icon links to this site until the profile is public.
+# To link the real profile, delete this block and uncomment scholar_userid below with your ID (the value after "user=").
+google_scholar_placeholder:
+  logo: ai ai-google-scholar
+  title: Google Scholar
+  url: https://maajidawol.github.io/
+# scholar_userid:
 github_username: maajidAwol # your GitHub user name
 linkedin_username: maajidawol # your LinkedIn user name
 cv_pdf: /assets/pdf/Abdulmajid_Awol_Seid_CV.pdf # path to your CV PDF file
