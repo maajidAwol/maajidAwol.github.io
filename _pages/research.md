@@ -55,4 +55,4 @@ _Open questions I am working on, not results I am claiming._
 
 ### Toolkit
 
-Python · Java · TypeScript · machine learning (random forests, XGBoost, LightGBM, model evaluation) · LLM APIs · empirical software engineering · Git · Docker · CI/CD
+Python · Java · TypeScript · ML · LLM APIs · empirical software engineering · Git · Docker · CI/CD
