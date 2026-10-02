@@ -52,3 +52,31 @@ html[data-theme="dark"] {
   --global-theme-color: #3f9a76;
   --global-hover-color: #3f9a76;
 }
+
+/* Profile details under the homepage photo: use the body font instead of the
+   gem's monospace, one item per line, with a clear hierarchy. */
+.profile .more-info {
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  margin-top: 0.75rem;
+
+  p {
+    display: block;
+  }
+
+  .profile-role {
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+
+  .profile-links {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Start the next section below a floated profile photo. */
+.clear-float {
+  clear: both;
+}

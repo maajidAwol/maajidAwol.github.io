@@ -9,10 +9,13 @@ profile:
   image: profile/abdulmajid.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Student in Computer Science</p>
+    <p class="profile-role">PhD Student</p>
+    <p>Computer Science</p>
     <p>Tulane University</p>
-    <p><a href="https://lab-design.github.io/">Laboratory for Software Design</a></p>
-    <p><a href="mailto:aseid@tulane.edu">aseid@tulane.edu</a></p>
+    <div class="profile-links">
+      <p><a href="https://lab-design.github.io/">Laboratory for Software Design</a></p>
+      <p><a href="mailto:aseid@tulane.edu">aseid@tulane.edu</a></p>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -35,6 +38,8 @@ latest_posts:
 I am a PhD student in Computer Science at Tulane University, where I am a graduate research assistant in the [Laboratory for Software Design](https://lab-design.github.io/), advised by [Dr. Hridesh Rajan](https://sse.tulane.edu/cs/faculty/rajan). My interests lie at the intersection of artificial intelligence, software engineering, and programming languages, with an emphasis on making agentic systems more dependable when they interact with tools, software artifacts, and external environments.
 
 Before starting my PhD, I completed a BSc (with Very Great Distinction) and an MSc in Software Engineering at Addis Ababa Science and Technology University, and worked as a software engineer on web, mobile, and AI-enabled systems. My master's thesis studied how to predict high-risk technical debt in open-source software projects using machine learning.
+
+<div class="clear-float"></div>
 
 #### Current research
 
