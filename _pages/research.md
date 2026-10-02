@@ -31,7 +31,7 @@ _Open questions I am working on, not results I am claiming._
 
 ### Open source
 
-- **[Flutter Clean Architecture VS Code extension](https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template)** (190+ installs). Scaffolds a full Clean Architecture feature for a Flutter app in one command, then detects and repairs structural drift. It is an early version of an idea I still care about: turning a project's implicit structural rules into something a tool can check.
+- **[Flutter Clean Architecture VS Code extension](https://github.com/resourceful-nebil/Flutter-Clean-Architecture-Starter-Kit-Template)** (350+ users). Scaffolds a full Clean Architecture feature for a Flutter app in one command, then detects and repairs structural drift. It is an early version of an idea I still care about: turning a project's implicit structural rules into something a tool can check.
 - **[Technical debt prediction pipeline](https://github.com/maajidAwol/technical-debt)**. The full replication package for my MSc thesis: data processing, labeling, features, models, and evaluation.
 
 ### Education
