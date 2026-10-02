@@ -38,12 +38,12 @@ Before starting my PhD, I completed a BSc (with Very Great Distinction) and an M
 
 #### Current research
 
-My current work focuses on **preventing compositional and decompositional attacks in AI agents**: cases where a harmful goal is split into steps that each look harmless, or where individually acceptable tool actions combine into an unsafe outcome. More broadly, I am interested in moving beyond judging agents only by their final outputs, and instead reasoning about the intermediate tool calls, parameters, state changes, and provenance that lead to those outcomes. This connects to ideas from software engineering and programming languages such as contracts, state, refinement, and provenance analysis.
+My current work focuses on the **reliability and security of tool-using AI agents**. I am interested in moving beyond judging agents only by their final outputs, and instead reasoning about the intermediate tool calls, parameters, state changes, and provenance that lead to those outcomes. This connects to ideas from software engineering and programming languages such as contracts, state, refinement, and provenance analysis.
 
 Questions I am currently exploring:
 
 - How can agent–tool interactions be specified and checked?
-- How can we detect incorrect or unsafe tool use, including unsafe behavior that only appears when actions are composed?
+- How can we detect incorrect or unsafe tool use?
 - How can provenance help explain why an agent took a particular action?
 - Which software engineering abstractions transfer effectively to AI agents?
 

@@ -17,7 +17,7 @@ A few properties make agent reliability harder than it first appears:
 1. **Long trajectories.** Agents often take many steps before finishing a task. A small error early on can propagate, and the final state may depend on the whole sequence, not on any single step.
 2. **External state.** Tools read and modify an environment the agent does not fully control. The same action can be safe in one state and harmful in another.
 3. **Untrusted inputs.** Agents read web pages, documents, and tool outputs that may contain incorrect or adversarial content, and that content can influence later actions.
-4. **Composition.** Steps that are each acceptable in isolation can combine into an unacceptable outcome, and a harmful goal can be broken into steps that each look benign. Checking one step at a time can miss both cases.
+4. **Interacting steps.** Errors can come from how steps interact, not only from any single step, so checking one step at a time is not always enough.
 
 ### A software engineering view
 

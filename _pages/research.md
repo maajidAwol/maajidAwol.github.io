@@ -41,14 +41,12 @@ I am interested in how tool interactions, parameters, external state, and untrus
 
 ### Current research
 
-My current work focuses on **preventing compositional and decompositional attacks in AI agents**. In these attacks, a harmful goal may be split into steps that each look harmless, or individually acceptable actions may combine into an unsafe result. Checking each step in isolation can miss both.
-
-More broadly, I am interested in moving beyond evaluating agents only by their final outputs, and instead reasoning about the intermediate interactions, state changes, tool calls, parameters, and provenance that lead to those outcomes. This direction draws on software engineering and programming-language ideas including contracts, state management, refinement, provenance analysis, and fault-based evaluation. The goal is to develop systematic ways to identify agent failures, characterize their causes, and evaluate techniques that improve reliability.
+My current work focuses on the **reliability and security of tool-using AI agents**. I am interested in moving beyond evaluating agents only by their final outputs, and instead reasoning about the intermediate interactions, state changes, tool calls, parameters, and provenance that lead to those outcomes. This direction draws on software engineering and programming-language ideas including contracts, state management, refinement, provenance analysis, and fault-based evaluation. The goal is to develop systematic ways to identify agent failures, characterize their causes, and evaluate techniques that improve reliability.
 
 **Questions I am exploring**
 
 - How can agent–tool interactions be specified and checked?
-- How can we detect incorrect or unsafe tool use, including behavior that is only unsafe in composition?
+- How can we detect incorrect or unsafe tool use?
 - How should state be represented and managed across long-running agent interactions?
 - How can provenance help explain why an agent produced a particular action?
 - How can we systematically evaluate agent reliability under realistic failures?

@@ -24,7 +24,7 @@ Two lessons stayed with me. First, be careful about what a metric actually measu
 
 AI agents are software that acts. They call tools, edit files, query databases, and send messages, often through long sequences of steps. Both of the lessons above apply directly:
 
-- **Failures live at the boundaries.** An agent can produce a reasonable-looking final answer while making an unsafe tool call along the way, or carry out a harmful task as a series of steps that each look harmless.
+- **Failures live at the boundaries.** An agent can produce a reasonable-looking final answer while making an unsafe tool call along the way.
 - **Final outputs are not the whole story.** Judging an agent only by its final output is like judging a codebase only by whether it compiles.
 
 Software engineering and programming languages have decades of ideas for reasoning about systems like this: contracts, specifications, state, refinement, provenance, testing, and empirical evaluation. My research asks which of these ideas transfer to AI agents, and what new ideas we need where they don't.

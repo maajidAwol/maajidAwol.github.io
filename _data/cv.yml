@@ -3,12 +3,12 @@ cv:
   label: PhD Student in Computer Science, Tulane University
   email: maajidawol@gmail.com
   location: New Orleans, LA, USA
-  website: https://maajidawol.github.io/abdulmajid-awol/
+  website: https://maajidawol.github.io/
   image: ""
   summary: >-
     PhD student in Computer Science at Tulane University and graduate research assistant in the Laboratory for Software Design, advised by
     Dr. Hridesh Rajan. I research reliable and secure AI agents at the intersection of artificial intelligence, software engineering, and
-    programming languages. My current work focuses on preventing compositional and decompositional attacks in AI agents. Before my PhD, I
+    programming languages. My current work focuses on the reliability and security of tool-using AI agents. Before my PhD, I
     completed a BSc and MSc in Software Engineering and worked as a software engineer on web, mobile, and AI-enabled systems.
 
   social_networks:
@@ -24,7 +24,7 @@ cv:
         keywords: "Agentic systems, tool use, failure analysis, evaluation"
       - name: Agent safety and security
         icon: fa-solid fa-shield-halved
-        keywords: "Compositional and decompositional attacks, tool misuse, provenance"
+        keywords: "Tool misuse, untrusted inputs, provenance"
       - name: AI + software engineering
         icon: fa-solid fa-code
         keywords: "AI4SE, agentic software engineering, empirical software engineering"
@@ -84,7 +84,7 @@ cv:
         start_date: 2026-08
         summary: Research on reliable and secure AI agents, advised by Dr. Hridesh Rajan.
         highlights:
-          - Investigating how to prevent compositional and decompositional attacks in tool-using AI agents.
+          - Researching the reliability and security of tool-using AI agents.
           - Exploring software engineering and programming-language techniques (contracts, state, provenance) for reasoning about agent behavior.
 
       - company: Ethiopian Artificial Intelligence Institute
@@ -143,9 +143,9 @@ cv:
         summary: Cross-project framework that predicts which files will become maintenance-intensive, evaluated on 22 Apache Java projects.
 
     Projects:
-      - name: Compositional and Decompositional Attacks on AI Agents
+      - name: Reliable and Secure AI Agents
         start_date: 2026-08
-        summary: Ongoing PhD research on preventing attacks that hide harmful behavior across individually harmless-looking agent steps.
+        summary: Ongoing PhD research on making tool-using AI agents more reliable and secure.
 
       - name: Miiltoo Knowledge Companion
         url: https://github.com/maajidAwol/Miiltoo_Knowledge_Companion
