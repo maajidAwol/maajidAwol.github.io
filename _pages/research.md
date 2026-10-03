@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-AI agents no longer just answer questions. They **act**: calling tools, editing code, querying databases, and changing the systems around them. Once an agent can act, a mistake is no longer just a wrong answer; it is a wrong action. I study how to make those actions reliable, using ideas that software engineering and programming languages have refined for decades.
+AI agents no longer just answer questions. They **act**: calling tools, editing code, querying databases, and changing the systems around them. Once an agent can act, a mistake is no longer just a wrong answer; it is a wrong action. I study how to make those actions reliable, using ideas that software engineering has refined for decades.
 
 I came to this from software engineering. Years of building web, mobile, and AI systems taught me where software breaks, and my MSc thesis studied that empirically. Static analysis tools flag thousands of problems in a mature codebase, but maintainers need to know which ones will actually hurt, so I built a cross-project model that predicts which files will become maintenance hotspots. AI agents are the next step on that path: software that acts on software, and that breaks in new ways.
 
